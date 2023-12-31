@@ -32,3 +32,13 @@ body {
   font-weight: 700;
   font-size: larger;
 }
+@media only screen and (max-width: 600px) {
+  #calculator {
+    width: 90%;
+  }
+
+  .button {
+    width: 45%;
+    font-size: 1.2em;
+  }
+}
